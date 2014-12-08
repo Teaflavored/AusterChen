@@ -63,6 +63,16 @@ section#portfolio div.container div.row div article a.my-asteroids:after{
   color:#fff;
 }
 
+section#portfolio div.container div.row div article a.my-chess:after{
+  content: "Chess game built with ruby, uses classical inheritance concepts to structure game pieces. Features file serialization to save games.";
+  color:#fff;
+}
+
+section#portfolio div.container div.row div article a.my-minesweeper:after{
+  content: "Minesweeper game built with ruby, uses tile objects with board object. Includes use of keymaster gem to play game.";
+  color:#fff;
+}
+
 
 section#portfolio div.container div.row div article a:hover:after {
   opacity:1;
