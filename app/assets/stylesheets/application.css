@@ -26,8 +26,8 @@ section#portfolio div.container div.row div article a.image:after{
   top:0; left:0;
   background:rgba(0,0,0,0.6);
   opacity:0;
-  transition: all 1s;
-  -webkit-transition: all 1s;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s;
 }
 
 section#portfolio div.container div.row div article a.my-pokevisit:after{
