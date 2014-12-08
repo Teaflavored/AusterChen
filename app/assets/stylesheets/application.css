@@ -86,3 +86,23 @@ h4.img-header{
   font-weight:bold;
   color:#000;
 }
+
+section#top div.container header *{
+  color:#fff;
+}
+
+section#top div.container header h2.alt{
+  width:70%;
+  font-weight:bold;
+  text-align:center;
+  display:inline-block;
+  font-size:65px;
+}
+
+section#top div.container header p{
+  font-size:1.1em;
+}
+
+a.button.scrolly{
+  background:#2C3E50;
+}
