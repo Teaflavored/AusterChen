@@ -30,13 +30,20 @@ section#portfolio div.container div.row div article a.image:after{
   -webkit-transition: all 0.5s;
 }
 
-section#portfolio div.container div.row div article a.my-pokevisit:after{
+section#portfolio div.container div.row div article a.image.fit{
   text-align:left;
-  content: "Pokevisit";
+  padding-left:5px;
+  padding-right:5px;
+  text-indent: 20px;
+  font-size:20px;
+}
+
+section#portfolio div.container div.row div article a.my-pokevisit:after{
+  content: "Airbnb clone built with Ruby on Rails for backend and Backbone.js for frontend, features custom authentication built with BCrypt, Backbone Composite Views. All server requests are made via AJAX.";
   color:#fff;
 }
 section#portfolio div.container div.row div article a.my-trello:after{
-  content: "Trello";
+  content: "Trello clone built with Ruby on Rails for backend and Backbone.js for frontend, features jQuery UI for dragging cards around and between lists, twitter bootstrap framework, and use of custom AJAX requests to persist order of lists/cards.";
   color:#fff;
 }
 section#portfolio div.container div.row div article a.my-snake:after{
