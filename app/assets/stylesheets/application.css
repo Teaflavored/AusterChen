@@ -13,13 +13,13 @@
  *= require_tree .
  *= require_self
  */
-section#portfolio div.container div.row div article a{
+section#portfolio div.container div.row div article a.image{
   border:1px solid #7f8c8d;
   position:relative;
   width:100%;
 }
 
-section#portfolio div.container div.row div article a:after{
+section#portfolio div.container div.row div article a.image:after{
   content:'\A';
   position:absolute;
   width:100%; height:100%;
@@ -105,4 +105,8 @@ section#top div.container header p{
 
 a.button.scrolly{
   background:#2C3E50;
+}
+
+.no-dec-link{
+  text-decoration: none;
 }
