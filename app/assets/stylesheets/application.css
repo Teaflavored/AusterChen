@@ -13,3 +13,54 @@
  *= require_tree .
  *= require_self
  */
+section#portfolio div.container div.row div article a{
+  position:relative;
+  width:100%;
+}
+
+section#portfolio div.container div.row div article a:after{
+  content:'\A';
+  position:absolute;
+  width:100%; height:100%;
+  top:0; left:0;
+  background:rgba(0,0,0,0.6);
+  opacity:0;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+}
+
+section#portfolio div.container div.row div article a.my-pokevisit:after{
+  text-align:left;
+  content: "Pokevisit";
+  color:#fff;
+}
+section#portfolio div.container div.row div article a.my-trello:after{
+  content: "Trello";
+  color:#fff;
+}
+section#portfolio div.container div.row div article a.my-snake:after{
+  content: "Snake";
+  color:#fff;
+}
+section#portfolio div.container div.row div article a.my-rails:after{
+  content: "Rails";
+  color:#fff;
+}
+section#portfolio div.container div.row div article a.my-portfolio:after{
+  content: "Portfolio";
+  color:#fff;
+}
+section#portfolio div.container div.row div article a.my-asteroids:after{
+  content: "Asteroids";
+  color:#fff;
+}
+
+
+section#portfolio div.container div.row div article a:hover:after {
+  opacity:1;
+}
+
+section#portfolio div.container div.row div article a img{
+  height:300px;
+  width:100%;
+}
