@@ -47,19 +47,19 @@ section#portfolio div.container div.row div article a.my-trello:after{
   color:#fff;
 }
 section#portfolio div.container div.row div article a.my-snake:after{
-  content: "Snake";
+  content: "Snake game built with javascript using canvas in HTML5. Features object oriented design and use of jQuery.";
   color:#fff;
 }
 section#portfolio div.container div.row div article a.my-rails:after{
-  content: "Rails";
+  content: "I built a lite version of rails and activerecord to understand how activerecord interacts with the database and how rails router/controller works behind the hood.";
   color:#fff;
 }
 section#portfolio div.container div.row div article a.my-portfolio:after{
-  content: "Portfolio";
+  content: "Simple minimalistic design website that I made using HTML5, CSS, Javascript, jQuery.";
   color:#fff;
 }
 section#portfolio div.container div.row div article a.my-asteroids:after{
-  content: "Asteroids";
+  content: "Asteroids game built with javascript using canvas in HTML5, uses jQuery and Object-Oriented Design.";
   color:#fff;
 }
 
